@@ -143,7 +143,12 @@ p {
 }
 
 .success-content img {
-  margin: 96px 0px 32px;
+  /* margin: 96px 0px 32px; */
+  margin-top: -38px;
+}
+
+.success-content {
+  align-self: center;
 }
 
 .success-content h1 {

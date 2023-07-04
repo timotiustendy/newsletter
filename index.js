@@ -47,7 +47,7 @@ emailInputElmt.addEventListener("keyup", debounce((e) => {
 submitButton.addEventListener("click", () => {
   if (isValidEmail && emailInputElmt.value.length > 0) {
     signupCard.style.display = "none";
-    messageCard.style.display = "block";
+    messageCard.style.display = "flex";
   }
 });
 
