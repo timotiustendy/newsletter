@@ -136,6 +136,8 @@ p {
 .success-section {
   display: none;
   box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   width: 100%;
   padding: 24px;
@@ -143,8 +145,7 @@ p {
 }
 
 .success-content img {
-  /* margin: 96px 0px 32px; */
-  margin-top: -38px;
+  margin: 96px 0px 32px;
 }
 
 .success-content {
@@ -161,6 +162,17 @@ p {
   width: calc(100% - 48px);
   bottom: 24px;
   position: absolute;
+}
+
+@media (orientation: landscape) {
+  .success-content img {
+    margin: 0;
+  }
+
+  .success-btn {
+    bottom: 0;
+    position: relative;
+  }
 }
 
 @media screen and (min-width: 1024px) {
